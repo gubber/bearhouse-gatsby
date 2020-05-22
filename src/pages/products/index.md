@@ -1,96 +1,62 @@
 ---
-heading: Cakes
+heading: The only thing better than cake is great cake
 path: /products
 templateKey: product-page
 title: Our Products
 image: /img/pink-macaron-cake.jpg
-description: Kaldi is the ultimate spot for coffee lovers who want to learn
-  about their java’s origin and support the farmers that grew it. We take coffee
-  production, roasting and brewing seriously and we’re glad to pass that
-  knowledge to anyone.
-intro:
-  blurbs:
-    - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+description: All cakes and treats will be freshly baked and decorated to order using fine quality ingredients and locally sourced free range eggs. I bake from my home in Bishop's Nympton, in the beautiful North Devon countryside. 
 main:
-  heading: Great coffee with no compromises
+  heading: Cake makes everything better
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    There's never a bad time for cake and there's a cake for every occasion.
+
+    For a special birthday why not surprise someone with a bespoke multi-layered decadent vanilla sponge, with Swiss meringue buttercream, decorated to your specification.
+
+    Having the girls round for a cuppa? Perhaps some rich, indulgant chocolate brownies or a selection of delicate macarons?
+
+    If you would like to send a 'thank you' to someone special, a cupcake bouquet is always a winner.
+
+    Perhaps a large cake is too much for a small gathering? Why not try some individual cake slices presented on a decorated board.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/slices.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    image: /img/rose-close.jpg
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
-testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: Kaldi is the place to go if you want the best quality coffee. I love
-      their stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
+    alt: Tray Bake
+    image: /img/tray-bake.jpg
+full_image: /img/welsh-cakes.jpg
 pricing:
   heading: Example Pricing
   description: "Every bake is made to order, and prices will vary accordingly.
-    Here are some examples to give you an idea of pricing. "
+    Here are some examples to give you an idea of pricing. Please get in touch for a quote. "
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: 6 cupcakes 
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: "50"
-    - description: Great for avid drinkers, java-loving couples and bigger crowds
+        - Vanilla cupcakes
+        - Vanilla buttercream decoration
+      plan: Cupcakes
+      price: "9"
+    - description: Beautifully decorated 6" celebration cake
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: "80"
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+        - 3 layers of vanilla sponge 
+        - sandwiched together with vanilla buttercream
+        - Bespoke buttercream decoration
+      plan: Cake
+      price: "30"
+    - description: Beautifully decorated 8" celebration cake
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: ??
+        - 4 layers of Chocolate sponge
+        - sandwiched together with chocolate buttercream
+        - lavishly decorated with choclate orange buttercream, flowers and treats
+      plan: Large Cake
+      price: "60"
+    - description: Sweet treats and naughty nibbles
+      items:
+        - Chocolate brownies
+        - Macarons
+        - Welsh cakes
+      plan: Treats from
+      price: "5"
 ---
