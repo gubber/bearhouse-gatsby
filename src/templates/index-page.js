@@ -16,6 +16,8 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
+    <div className="corner-ribbon top-left cream sticky inside">&nbsp;</div>
+    <div className="corner-ribbon top-left green sticky outside">&nbsp;</div>
     <div
       className="full-width-image margin-top-0"
       style={{
@@ -36,7 +38,7 @@ export const IndexPageTemplate = ({
           flexDirection: 'column',
         }}
       >
-        <h1
+        {/* <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             boxShadow:
@@ -61,7 +63,7 @@ export const IndexPageTemplate = ({
           }}
         >
           {subheading}
-        </h3>
+        </h3> */}
       </div>
     </div>
     <section className="section section--gradient">

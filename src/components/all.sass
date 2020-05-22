@@ -1,14 +1,61 @@
+$bearhouse-pink: #FFC0D3
+$bearhouse-cream: #FFF9E5
+$bearhouse-green: #B1E2CA
+$body-background-color: $bearhouse-pink
+$body-family: 'Cooper Std', sans-serif
 @import "~bulma/sass/utilities/initial-variables"
+@import url('https://fonts.cdnfonts.com/css/cooper-std')
 
-// Config vars
-// Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
 $kaldi-red-invert: #fff
 
-$primary: $kaldi-red
+$primary: $bearhouse-pink
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
+
+
+.corner-ribbon
+  width: 200px
+  z-index: 100
+  background: $bearhouse-green
+  position: absolute
+  left: -50px
+  text-align: center
+  line-height: 40px
+  letter-spacing: 1px
+  color: #f0f0f0
+  transform: rotate(-45deg)
+  -webkit-transform: rotate(-45deg)
+
+
+/* Custom styles */
+
+.corner-ribbon.sticky
+  position: fixed
+
+.corner-ribbon.cream
+  background: $bearhouse-cream
+
+.corner-ribbon.green
+  background: $bearhouse-green
+
+.corner-ribbon.inside
+  top: 10px
+
+.corner-ribbon.outside
+  top: 48px
+  width: 234px
+  
+/* Different positions */
+
+.corner-ribbon.top-left
+  left: -50px
+  transform: rotate(-45deg)
+  -webkit-transform: rotate(-45deg)
+
+
+.navbar
+  background-color: $bearhouse-pink !important
 
 .navbar .navbar-menu
   box-shadow:none !important
