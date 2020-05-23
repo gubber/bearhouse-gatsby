@@ -19,8 +19,7 @@ export const IndexPageTemplate = ({
   main
 }) => (
   <div>
-    <div className="corner-ribbon top-left cream sticky inside">&nbsp;</div>
-    <div className="corner-ribbon top-left green sticky outside">&nbsp;</div>
+    
     <div
       className="full-width-image margin-top-0"
       style={{

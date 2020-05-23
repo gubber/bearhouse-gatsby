@@ -33,6 +33,7 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
+      <div>
       <nav
         className="navbar is-transparent"
         role="navigation"
@@ -69,6 +70,10 @@ const Navbar = class extends React.Component {
           </div>
         </div>
       </nav>
+      
+        <div className="corner-ribbon top-left cream sticky inside">&nbsp;</div>
+        <div className="corner-ribbon top-left green sticky outside">&nbsp;</div>
+      </div>
     )
   }
 }
